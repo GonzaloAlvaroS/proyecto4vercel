@@ -1,0 +1,153 @@
+.faq{
+    margin-top: 130px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 58px;
+}
+.faqtitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.faqtitulo h1{
+    font-family: "DM Serif Text", serif;
+    font-size: 40px;
+}
+.faqtexto{
+    margin-top: 22px;
+}
+.faqtexto h2{
+    margin-bottom: 10px;
+    color: black;
+}
+.faqtexto p{
+    width: 100%;
+    color: rgb(58, 58, 58);
+}
+.lineafaq1{
+    height: 2px;
+    background-color: #181818;
+    width: 100%;
+    z-index: 1000;
+    margin-top: 50px;
+}
+.lineafaq2{
+    height: 2px;
+    background-color: #181818;
+    width: 100%;
+    z-index: 1000;
+    margin-top: 25px;
+}
+
+/* ----------------------------------------------------------------- */
+
+.faqtitulo{
+    position: relative;
+    width: 83%;
+    display: flex;
+    margin-left: -204px;
+    margin-bottom: 105px;
+    justify-content: center;
+    align-items: center;
+}
+.faqtitulo h1 {
+    position: absolute;
+    width: 100%;
+    font-size: 40px;
+    margin-top: 8px;
+    font-family: "DM Serif Text", serif;
+    text-align: center;
+  }
+.faqtitulo h1:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    line-height: 48px;
+    left: 30%;
+    top: 50%;
+    animation: abomination4 1.5s linear 1;
+    animation-fill-mode: forwards;
+  }
+  
+  
+@keyframes abomination4 {
+    0% {
+      content: "";
+    }
+    4% {
+      content: "〈";
+    }
+    8% {
+      content: "〈 ";
+    }
+    12% {
+      content: "〈 P";
+    }
+    16% {
+      content: "〈 PR";
+    }
+    20% {
+      content: "〈 PRE";
+    }
+    24% {
+      content: "〈 PREG";
+    }
+    28% {
+      content: "〈 PREGU";
+    }
+    32% {
+      content: "〈 PREGUN";
+    }
+    36% {
+      content: "〈 PREGUNT";
+    }
+    40% {
+      content: "〈 PREGUNTA";
+    }
+    44% {
+      content: "〈 PREGUNTAS";
+    }
+    48% {
+      content: "〈 PREGUNTAS ";
+    }
+    52% {
+      content: "〈 PREGUNTAS F";
+    }
+    56% {
+      content: "〈 PREGUNTAS FR";
+    }
+    60% {
+      content: "〈 PREGUNTAS FRE";
+    }
+    64% {
+      content: "〈 PREGUNTAS FREC";
+    }
+    68% {
+      content: "〈 PREGUNTAS FRECU";
+    }
+    72% {
+      content: "〈 PREGUNTAS FRECUE";
+    }
+    76% {
+      content: "〈 PREGUNTAS FRECUEN";
+    }
+    80% {
+      content: "〈 PREGUNTAS FRECUENT";
+    }
+    84% {
+      content: "〈 PREGUNTAS FRECUENTE";
+    }
+    86% {
+      content: "〈 PREGUNTAS FRECUENTES";
+    }
+    90% {
+      content: "〈 PREGUNTAS FRECUENTES ";
+    }
+    100% {
+      content: "〈 PREGUNTAS FRECUENTES 〉";
+    }
+}
+
+

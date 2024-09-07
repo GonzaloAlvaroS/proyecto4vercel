@@ -1,0 +1,165 @@
+.explicacion{
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin-top: 130px;
+}
+.explicacion p{
+    max-width: 700px;
+    margin-left: 320px;
+}
+.explicacion img{
+    width: 350px;
+    height: 350px;
+}
+
+/* ----------------------------------------------------------------- */
+
+.tituloexplicacion{
+    position: relative;
+    width: 83%;
+    display: flex;
+    margin-left: -220px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.tituloexplicacion h1 {
+    position: absolute;
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: "DM Serif Text", serif;
+    text-align: center;
+  }
+.tituloexplicacion h1:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    line-height: 48px;
+    left: 30%;
+    top: 50%;
+    animation: abomination2 1.5s linear 1;
+    animation-fill-mode: forwards;
+  }
+  
+  
+@keyframes abomination2 {
+    0% {
+      content: "↗";
+    }
+    2.5% {
+      content: "↗ ";
+    }
+    5% {
+      content: "↗ L";
+    }
+    7.5% {
+      content: "↗ LA";
+    }
+    10% {
+      content: "↗ LA ";
+    }
+    12.5% {
+      content: "↗ LA F";
+    }
+    15% {
+      content: "↗ LA FO";
+    }
+    17.5% {
+      content: "↗ LA FOR";
+    }
+    20% {
+      content: "↗ LA FORM";
+    }
+    22.5% {
+      content: "↗ LA FORMU";
+    }
+    25% {
+      content: "↗ LA FORMUL";
+    }
+    27.5% {
+      content: "↗ LA FORMULA";
+    }
+    30% {
+      content: "↗ LA FORMULA ";
+    }
+    32.5% {
+      content: "↗ LA FORMULA P";
+    }
+    35% {
+      content: "↗ LA FORMULA PA";
+    }
+    37.5% {
+      content: "↗ LA FORMULA PAR";
+    }
+    40% {
+      content: "↗ LA FORMULA PARA";
+    }
+    42.5% {
+      content: "↗ LA FORMULA PARA ";
+    }
+    45% {
+      content: "↗ LA FORMULA PARA A";
+    }
+    47.5% {
+      content: "↗ LA FORMULA PARA AL";
+    }
+    50% {
+      content: "↗ LA FORMULA PARA ALC";
+    }
+    52.5% {
+      content: "↗ LA FORMULA PARA ALCA";
+    }
+    55% {
+      content: "↗ LA FORMULA PARA ALCAN";
+    }
+    57.5% {
+      content: "↗ LA FORMULA PARA ALCANZ";
+    }
+    60% {
+      content: "↗ LA FORMULA PARA ALCANZA";
+    }
+    62.5% {
+      content: "↗ LA FORMULA PARA ALCANZAR";
+    }
+    65% {
+        content: "↗ LA FORMULA PARA ALCANZAR ";
+      }
+      67.5% {
+        content: "↗ LA FORMULA PARA ALCANZAR E";
+      }
+      70% {
+        content: "↗ LA FORMULA PARA ALCANZAR EL";
+      }
+      72.5% {
+        content: "↗ LA FORMULA PARA ALCANZAR EL ";
+      }
+      75% {
+        content: "↗ LA FORMULA PARA ALCANZAR EL E";
+      }
+      77.5% {
+        content: "↗ LA FORMULA PARA ALCANZAR EL EX";
+      }
+      80% {
+        content: "↗ LA FORMULA PARA ALCANZAR EL EXI";
+      }
+      85% {
+        content: "↗ LA FORMULA PARA ALCANZAR EL EXIT";
+      }
+      90% {
+        content: "↗ LA FORMULA PARA ALCANZAR EL EXITO";
+      }
+      95% {
+        content: "↗ LA FORMULA PARA ALCANZAR EL EXITO ";
+      }
+      100% {
+        content: "↗ LA FORMULA PARA ALCANZAR EL EXITO ↗";
+      }
+
+}
+
+
+

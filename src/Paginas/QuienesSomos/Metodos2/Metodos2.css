@@ -1,0 +1,58 @@
+.metodos2{
+    width: 100%;
+    margin-bottom: 42px;
+    min-height: 150vh;
+    background-color: rgb(22, 22, 22);
+    background-size: cover;
+    background-position: center;
+    color:rgb(255, 255, 255);
+}
+.metodos2-texto{
+    display: block;  
+    text-align: center;
+    padding-top: 25px;
+}
+.metodos2-texto h1{
+    font-family: "Inria Serif", serif;
+}
+.metodos2-texto h2{
+    color: #d39000;
+    font-family: "Lora", serif;
+    font-size: 18px; 
+}
+.metodos2-imagenestodo{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.metodos2-imagenes1{
+    display: block;
+    margin-right: 170px;
+}
+.metodos2-bloque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.metodos2-bloque button{
+    margin-top: 25px;
+}
+.metodos2-bloque img:hover{
+    transform: scale(1.1);
+    transition: 0.5s 
+}
+.metodos2-imagenes2{ 
+    display: block;
+}
+.metodos2-imagenes1 img, .metodos2-imagenes2 img{
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+}
+.imagenmetodo2{
+    margin-top: 57px;
+}
+
+

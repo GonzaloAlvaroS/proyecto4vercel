@@ -1,0 +1,111 @@
+.servicio1{
+    margin: 58px auto;
+    padding-left: 120px;
+    margin-bottom: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    transition: transform 1.5s ease-out, opacity 1.5s ease-out;
+    transform: translatey(-100%); 
+    opacity: 0;
+}
+.servicio1.visible{
+    transform: translatey(0); 
+    opacity: 1;
+}
+.servicio1-left{
+    flex-basis: 50%;
+    position: relative;
+}
+.servicio1-right{
+    flex-basis: 53.5%;
+    margin-bottom: 1%;
+}
+.servicio1 h2{
+    font-size: 35px;
+    font-family: "DM Serif Text", serif;
+    color: #000000;
+    margin: 10px 0;
+    max-width: 400px;
+}
+.servicio1 h3{
+    font-weight: 600;
+    font-weight: 16px;
+    color: #d39000;
+    font-family: "Lora", serif;
+}
+.servicio1 p{
+    color: #1b1b1b;
+    margin-bottom: 15px;
+    text-align: justify;
+    width: 445px;
+}
+.imagen{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* ----------------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+    .servicio1 {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .imagen {
+        width: 80%;
+        height: auto;
+        max-width: 400px;
+    }
+    .servicio1-right h2 {
+        font-size: 28px;
+    }
+    .servicio1-right p {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 768px) {
+    .servicio1 {
+        padding-left: 40px;
+    }
+    .imagen {
+        width: 300px;
+        height: 220px;
+    }
+    .servicio1 h2 {
+        font-size: 28px;
+    }
+    .servicio1 p {
+        width: 350px;
+    }
+}
+
+@media (max-width: 414px) {
+    .servicio1 {
+        padding-left: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagen {
+        width: 100%;
+        height: auto;
+    }
+    .servicio1-right {
+        text-align: center;
+    }
+    .servicio1 h2 {
+        font-size: 24px;
+    }
+    .servicio1 p {
+        width: 100%;
+        font-size: 14px;
+    }
+    .servicio1 h3 {
+        font-size: 14px;
+    }
+}

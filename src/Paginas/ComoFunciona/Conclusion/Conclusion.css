@@ -1,0 +1,20 @@
+.conclusion{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.conclusion h1{
+    font-family: "DM Serif Text", serif;
+}
+.conclusion h2{
+    color: #d39000;
+    font-family: "Lora", serif;
+    font-size: 18px; 
+    margin-bottom: 3px;
+}
+.conclusion button{
+    margin-top: 30px;
+    
+}

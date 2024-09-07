@@ -1,0 +1,25 @@
+.infoempresa2{
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.infoempresa2 h1{
+    margin-bottom: 40px;
+    font-family: "DM Serif Text", serif;
+}
+.infoempresa2 p{
+    max-width: 700px;
+    margin-left: 320px;
+}
+.infoempresa2 video{
+    margin-top: 40px; 
+}
+.btnunete{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 553px;
+    margin-top: 45px; 
+}

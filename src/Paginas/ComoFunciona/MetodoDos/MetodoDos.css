@@ -1,0 +1,63 @@
+.metododos{
+    width: 100%;
+    min-height: 55vh;
+    background: linear-gradient(rgba(22, 22, 22, 0.7),rgba(22, 22, 22, 0.7)), url("../../../assets/metodoinversion.png");
+    background-size: cover;
+    background-position: center;
+    color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    gap: 100px;
+}
+.metododos-text{
+    text-align: left; 
+    order: 1;
+    margin-top: -10px;
+}
+.metododos-text p{
+    font-weight: 200;
+    width: 600px
+}
+.metododos-text h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #d39000;
+    font-family: "Lora", serif;
+}
+.metododos-video video{
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/* ----------------------------------------------------------------- */
+
+.titulometododos{
+    text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #d39000 0%,
+    #d8b726 29%,
+    #fae84b 67%,
+    #f37610 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

@@ -1,0 +1,151 @@
+.introduccion{
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin-top: 130px;
+}
+.introduccion p{
+    max-width: 700px;
+    margin-left: 320px;
+}
+.introduccion img{
+    width: 350px;
+    height: 350px;
+}
+
+/* ----------------------------------------------------------------- */
+
+.introducciontitulo{
+    position: relative;
+    width: 83%;
+    display: flex;
+    margin-left: -220px;
+    margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.introducciontitulo h1 {
+    position: absolute;
+    width: 100%;
+    font-size: 40px;
+    font-family: "DM Serif Text", serif;
+    text-align: center;
+  }
+.introducciontitulo h1:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    line-height: 48px;
+    left: 30%;
+    top: 50%;
+    animation: abomination3 1.5s linear 1;
+    animation-fill-mode: forwards;
+  }
+  
+  
+@keyframes abomination3 {
+    0% {
+      content: "-";
+    }
+    3% {
+      content: "- ";
+    }
+    6% {
+      content: "- T";
+    }
+    9% {
+      content: "- TU";
+    }
+    12% {
+      content: "- TU ";
+    }
+    15% {
+      content: "- TU F";
+    }
+    18% {
+      content: "- TU FU";
+    }
+    21% {
+      content: "- TU FUT";
+    }
+    24% {
+      content: "- TU FUTU";
+    }
+    27% {
+      content: "- TU FUTUR";
+    }
+    30% {
+      content: "- TU FUTURO";
+    }
+    33% {
+      content: "- TU FUTURO ";
+    }
+    36% {
+      content: "- TU FUTURO E";
+    }
+    39% {
+      content: "- TU FUTURO EM";
+    }
+    42% {
+      content: "- TU FUTURO EMP";
+    }
+    45% {
+      content: "- TU FUTURO EMPI";
+    }
+    48% {
+      content: "- TU FUTURO EMPIE";
+    }
+    51% {
+      content: "- TU FUTURO EMPIEZ";
+    }
+    54% {
+      content: "- TU FUTURO EMPIEZA";
+    }
+    57% {
+      content: "- TU FUTURO EMPIEZA ";
+    }
+    60% {
+      content: "- TU FUTURO EMPIEZA A";
+    }
+    63% {
+      content: "- TU FUTURO EMPIEZA AQ";
+    }
+    66% {
+      content: "- TU FUTURO EMPIEZA AQU";
+    }
+    69% {
+      content: "- TU FUTURO EMPIEZA AQUI";
+    }
+    72% {
+      content: "- TU FUTURO EMPIEZA AQUI ";
+    }
+    75% {
+      content: "- TU FUTURO EMPIEZA AQUI Y";
+    }
+    78% {
+        content: "- TU FUTURO EMPIEZA AQUI Y ";
+      }
+      81% {
+        content: "- TU FUTURO EMPIEZA AQUI Y A";
+      }
+      84% {
+        content: "- TU FUTURO EMPIEZA AQUI Y AH";
+      }
+      87% {
+        content: "- TU FUTURO EMPIEZA AQUI Y AHO";
+      }
+      90% {
+        content: "- TU FUTURO EMPIEZA AQUI Y AHOR";
+      }
+      93% {
+        content: "- TU FUTURO EMPIEZA AQUI Y AHORA";
+      }
+      96% {
+        content: "- TU FUTURO EMPIEZA AQUI Y AHORA ";
+      }
+      100% {
+        content: "- TU FUTURO EMPIEZA AQUI Y AHORA -";
+      }
+}

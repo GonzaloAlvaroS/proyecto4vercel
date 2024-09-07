@@ -1,0 +1,11 @@
+.preguntafaq{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: -47px;
+    margin-bottom: 43px;
+}
+.preguntafaq h1{
+    font-family: "DM Serif Text", serif;
+}

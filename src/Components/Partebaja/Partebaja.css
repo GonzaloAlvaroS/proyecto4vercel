@@ -1,0 +1,124 @@
+.partebaja{
+    display: flex;
+    background-color: #000000;
+    align-items: flex-start;
+    justify-content: center; 
+    margin-top: 30px;
+    position: relative;
+    height: 280px;
+}
+.partebajainfo{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 100px;   
+    margin-top: 35px;
+}
+.infobaja{
+    margin: 0;
+    padding: 0; 
+}
+.infobaja h3{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+.infobaja p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 420;
+    margin-top: 17px;
+}
+.partebajalogo{
+    width: 200px;
+}
+.logoboton{
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    margin-left: -16px;
+    margin-top: 25px;
+}
+.logoboton img{
+    margin-left: 20px;
+    width: 32px;
+    cursor: pointer;
+}
+.palabralinkpagina{
+    cursor: pointer;
+}
+
+/* ----------------------------------------------------------------- */
+
+@media (max-width: 1290px) {
+    .partebajainfo {
+        gap: 80px;
+    }
+    .partebajalogo {
+        width: 180px;
+    }
+    .infobaja p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .partebajainfo {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .partebajalogo {
+        width: 150px;
+    }
+    .infobaja h3 {
+        font-size: 18px;
+    }
+    .infobaja p {
+        font-size: 14px;
+    }
+    .logoboton img {
+        width: 28px;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 768px) {
+    .partebajainfo {
+        gap: 50px;
+    }
+    .partebajalogo {
+        width: 150px;
+    }
+    .infobaja p {
+        font-size: 14px;
+    }
+    .logoboton img {
+        width: 28px;
+    }
+}
+
+@media (max-width: 414px) {
+    .partebaja {
+        height: auto;
+        padding: 20px 0;
+    }
+    .partebajainfo {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .partebajalogo {
+        width: 120px;
+        margin-bottom: 10px;
+    }
+    .infobaja p {
+        font-size: 12px;
+    }
+    .logoboton {
+        margin-top: 15px;
+    }
+    .logoboton img {
+        width: 24px;
+        margin-left: 10px;
+    }
+}
