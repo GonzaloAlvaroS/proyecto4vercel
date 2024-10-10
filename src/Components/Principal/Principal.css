@@ -9,28 +9,19 @@
     align-items: center;
     justify-content: center;
 }
-.principal-left{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;    
-}
-.principal-left video{
-    margin-top: 20px;
-    border-radius: 25px;
-}
-.principal-left-texto{
-    margin-top: 100px;
-    width: 500px;
-    font-size: 35px;
+.principaltexto{
     text-align: center;
-    font-family: "Inria Serif", serif;
+    transition: transform 1.5s ease-out, opacity 1.5s ease-out;
+    transform: translatey(-100%); 
+    opacity: 0;
 }
-.principal-right img{
-    margin-top: 100px;
-    margin-left: 100px;
-    transform: translateY(5px);
-    height: 500px;
+.principaltexto.visible{
+    transform: translatey(0); 
+    opacity: 1;
+}
+.principaltexto h1{
+    font-family: "Inria Serif", serif;
+    font-size: 80px;
 }
 .color500{
     color: #d39000;

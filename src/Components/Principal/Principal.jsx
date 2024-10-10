@@ -1,20 +1,46 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react';
 import "./Principal.css"
-import personaprincipal from "../../assets/personaprincipal.png"
-import videonegocios from "../../assets/videonegocios.mp4"
 
 
 const Principal = () => {
 
+  const refs = {
+    animacion: useRef(null),
+  };
+
+  useEffect(() => {
+    const handleScroll = (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(handleScroll, { threshold: 1 });
+
+    Object.values(refs).forEach(ref => {
+      if (ref.current) {
+        observer.observe(ref.current);
+      }
+    });
+
+    return () => {
+      Object.values(refs).forEach(ref => {
+        if (ref.current) {
+          observer.unobserve(ref.current);
+        }
+      });
+    };
+  }, []);
+
 return (
 
     <div className='principal'>
-      <div className="principal-left">
-        <h1 className='principal-left-texto'>Apoyamos a mas de <span className='color500'>500</span> brillantes negocios para que puedan prosperar. Es tu turno de ser uno de ellos.</h1>
-        <video src={videonegocios} width={500} controls muted autoPlay></video>
-      </div>
-      <div className='principal-right'>
-        <img src={personaprincipal} alt="" />
+      <div ref={refs.animacion} className='principaltexto'>
+        <h1>THE WHITE COMPANY</h1>
+        <p>Apoyamos a mas de <span className='color500'>500</span> brillantes negocios para que puedan prosperar. Es tu turno de ser uno de ellos.</p>
       </div>
     </div>
   )

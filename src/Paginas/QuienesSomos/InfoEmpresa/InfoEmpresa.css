@@ -1,165 +1,155 @@
 .infoempresa{
-    margin: 58px auto;
-    padding-left: 120px;
-    margin-bottom: 10px;
-    margin-top: 130px;
-    width: 90%;
+  margin: 58px auto;
+  padding-left: 120px;
+  margin-bottom: 10px;
+  margin-top: 130px;
+  width: 90%;
 }
 .infoempresainfo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .infoempresa-right{
-    order: 1;
-    margin-right: 35px;
-    transition: transform 2s ease-out, opacity 2s ease-out;
-    transform: translateX(-100%); 
-    opacity: 0;
+  order: 1;
+  margin-right: 35px;
 }
 .infoempresa-left{
-    margin-left: -73px;
-    transition: transform 2s ease-out, opacity 2s ease-out;
-    transform: translateX(100%); 
-    opacity: 0;
+  margin-left: -73px;
 }
 .imagen-infoempresa{
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
 }
 .infoempresa h2{
-  font-size: 35px;
-  font-family: "DM Serif Text", serif;
-  color: #000000;
-  margin: 10px 0;
+font-size: 35px;
+font-family: "DM Serif Text", serif;
+color: #000000;
+margin: 10px 0;
 }
 .infoempresa h3{
-    font-weight: 600;
-    font-weight: 16px;
-    color: #d39000;
-    font-family: "Lora", serif;
-    width: 350px;
+  font-weight: 600;
+  font-weight: 16px;
+  color: #d39000;
+  font-family: "Lora", serif;
+  width: 350px;
 }
 .infoempresa p{
-    color: #1b1b1b;
-    margin-bottom: 15px;
-    text-align: justify;
-    width: 550px;
-}
-.infoempresa-left.visible, .infoempresa-right.visible{
-    transform: translateX(0); 
-    opacity: 1;
+  color: #1b1b1b;
+  margin-bottom: 15px;
+  text-align: justify;
+  width: 550px;
 }
 
 /* ----------------------------------------------------------------- */
 
 .tituloinfoempresa{
-    position: relative;
-    width: 83%;
-    display: flex;
-    margin-left: -239px;
-    margin-bottom: 50px;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  width: 83%;
+  display: flex;
+  margin-left: -239px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
 }
 .tituloinfoempresa h1{
-    position: absolute;
-    width: 100%;
-    font-size: 40px;
-    font-family: "DM Serif Text", serif;
-    text-align: center;
-  }
+  position: absolute;
+  width: 100%;
+  font-size: 40px;
+  font-family: "DM Serif Text", serif;
+  text-align: center;
+}
 .tituloinfoempresa h1:after{
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    line-height: 48px;
-    left: 30%;
-    top: 50%;
-    animation: abomination1 1.5s linear 1;
-    animation-fill-mode: forwards;
-  }
-  
-  
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  line-height: 48px;
+  left: 30%;
+  top: 50%;
+  animation: abomination1 1.5s linear 1;
+  animation-fill-mode: forwards;
+}
+
+
 @keyframes abomination1 {
-    0% {
-      content: "¿";
-    }
-    4% {
-      content: "¿Q";
-    }
-    8% {
-      content: "¿QU";
-    }
-    12% {
-      content: "¿QUE";
-    }
-    16% {
-      content: "¿QUE ";
-    }
-    20% {
-      content: "¿QUE E";
-    }
-    24% {
-      content: "¿QUE ES";
-    }
-    28% {
-      content: "¿QUE ES ";
-    }
-    32% {
-      content: "¿QUE ES T";
-    }
-    36% {
-      content: "¿QUE ES TH";
-    }
-    40% {
-      content: "¿QUE ES THE";
-    }
-    44% {
-      content: "¿QUE ES THE ";
-    }
-    48% {
-      content: "¿QUE ES THE W";
-    }
-    52% {
-      content: "¿QUE ES THE WH";
-    }
-    56% {
-      content: "¿QUE ES THE WHI";
-    }
-    60% {
-      content: "¿QUE ES THE WHIT";
-    }
-    64% {
-      content: "¿QUE ES THE WHITE";
-    }
-    68% {
-      content: "¿QUE ES THE WHITE ";
-    }
-    72% {
-      content: "¿QUE ES THE WHITE C";
-    }
-    76% {
-      content: "¿QUE ES THE WHITE CO";
-    }
-    80% {
-      content: "¿QUE ES THE WHITE COM";
-    }
-    84% {
-      content: "¿QUE ES THE WHITE COMP";
-    }
-    88% {
-      content: "¿QUE ES THE WHITE COMPA";
-    }
-    92% {
-      content: "¿QUE ES THE WHITE COMPAN";
-    }
-    96% {
-      content: "¿QUE ES THE WHITE COMPANY";
-    }
-    100% {
-      content: "¿QUE ES THE WHITE COMPANY?";
-    }
+  0% {
+    content: "¿";
+  }
+  4% {
+    content: "¿Q";
+  }
+  8% {
+    content: "¿QU";
+  }
+  12% {
+    content: "¿QUE";
+  }
+  16% {
+    content: "¿QUE ";
+  }
+  20% {
+    content: "¿QUE E";
+  }
+  24% {
+    content: "¿QUE ES";
+  }
+  28% {
+    content: "¿QUE ES ";
+  }
+  32% {
+    content: "¿QUE ES T";
+  }
+  36% {
+    content: "¿QUE ES TH";
+  }
+  40% {
+    content: "¿QUE ES THE";
+  }
+  44% {
+    content: "¿QUE ES THE ";
+  }
+  48% {
+    content: "¿QUE ES THE W";
+  }
+  52% {
+    content: "¿QUE ES THE WH";
+  }
+  56% {
+    content: "¿QUE ES THE WHI";
+  }
+  60% {
+    content: "¿QUE ES THE WHIT";
+  }
+  64% {
+    content: "¿QUE ES THE WHITE";
+  }
+  68% {
+    content: "¿QUE ES THE WHITE ";
+  }
+  72% {
+    content: "¿QUE ES THE WHITE C";
+  }
+  76% {
+    content: "¿QUE ES THE WHITE CO";
+  }
+  80% {
+    content: "¿QUE ES THE WHITE COM";
+  }
+  84% {
+    content: "¿QUE ES THE WHITE COMP";
+  }
+  88% {
+    content: "¿QUE ES THE WHITE COMPA";
+  }
+  92% {
+    content: "¿QUE ES THE WHITE COMPAN";
+  }
+  96% {
+    content: "¿QUE ES THE WHITE COMPANY";
+  }
+  100% {
+    content: "¿QUE ES THE WHITE COMPANY?";
+  }
 }

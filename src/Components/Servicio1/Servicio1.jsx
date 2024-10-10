@@ -1,44 +1,13 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import "./Servicio1.css"
 import manosestrechadas from "../../assets/manosestrechadas.png"
 
 
 const Servicio1 = () => {
 
-  const refs = {
-    linea1: useRef(null),
-  };
-
-  useEffect(() => {
-    const handleScroll = (entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(handleScroll, { threshold: 1 });
-
-    Object.values(refs).forEach(ref => {
-      if (ref.current) {
-        observer.observe(ref.current);
-      }
-    });
-
-    return () => {
-      Object.values(refs).forEach(ref => {
-        if (ref.current) {
-          observer.unobserve(ref.current);
-        }
-      });
-    };
-  }, []);
-
 return (
   
-    <div ref={refs.linea1} className='servicio1'>
+    <div className='servicio1'>
       <div className="servicio1-left">
         <img src={manosestrechadas} alt="" className='imagen'/>
       </div>
@@ -52,3 +21,4 @@ return (
 }
 
 export default Servicio1
+
